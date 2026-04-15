@@ -3,6 +3,13 @@
 A simplified movie seat booking backend system. Extended with a full authentication layer and protected booking flow.
 
 
+## Tech Stack
+
+- Node.js + Express
+- PostgreSQL
+- JWT Authentication
+- bcrypt password hashing
+
 ## Project Structure
 
 ```
