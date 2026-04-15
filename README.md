@@ -1,6 +1,6 @@
 # BookMyTicket — ChaiCode Hackathon
 
-A simplified movie seat booking backend built on top of a provided starter codebase. Extended with a full authentication layer and protected booking flow.
+A simplified movie seat booking backend system. Extended with a full authentication layer and protected booking flow.
 
 
 ## Project Structure
@@ -48,7 +48,7 @@ bookmyticket/
 
 4. Create tables in the database
 ```bash
-   docker compose exec db psql -U postgres -d sql_class_2_db
+   docker exec -it book-my-ticket-postgresdb-1 psql -U postgres -d sql_class_2_db
 ```
    Then run:
 ```sql
